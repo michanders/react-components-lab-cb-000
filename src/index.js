@@ -9,7 +9,7 @@ const BUTCHER_PRODUCTS = [
 ];
 
 const gran = React.createElement("p", {}, "Two grannies having the time of their life!");
-const gran = React.createElement("p", {}, "Passengers:");
+const p = React.createElement("p", {}, "Passengers:");
 
 export class OlderCoaster extends React.Component {
   render() {
