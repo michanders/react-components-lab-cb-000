@@ -20,8 +20,13 @@ export class OlderCoaster extends React.Component {
   }
 };
 
-
-export class InFrontOfYou extends React.Component {};
+export class InFrontOfYou extends React.Component {
+  render() {
+    return React.createElement('div', {}, [
+      React.createElement('p', {}, 'You shouldn'+ "'" + 't look too far.'),
+    ])
+  }
+};
 
 
 export class ButcherShop extends React.Component {};
