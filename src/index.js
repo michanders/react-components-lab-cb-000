@@ -8,9 +8,19 @@ const BUTCHER_PRODUCTS = [
   'Ribeye'
 ];
 
-// Define these exported classes
-export class OlderCoaster extends React.Component {};
+const gran = React.createElement("p", {}, "Two grannies having the time of their life!");
+const gran = React.createElement("p", {}, "Passengers:");
+
+export class OlderCoaster extends React.Component {
+  render() {
+    return React.createElement("div", {className: 'oldercoaster'}, [])
+  }
+};
+
+
 export class InFrontOfYou extends React.Component {};
+
+
 export class ButcherShop extends React.Component {};
 
 ReactDOM.render(
