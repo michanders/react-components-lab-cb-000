@@ -10,12 +10,13 @@ const BUTCHER_PRODUCTS = [
 
 const gran = React.createElement("p", {}, "Two grannies having the time of their life!");
 const p = React.createElement("p", {}, "Passengers:");
-
+const ag = React.createElement('li', {}, "Agnes");
+const mu = React.createElement('li', {}, "Muriel");
 const list = React.createElement("ul", {}, [ag, mu]);
 
 export class OlderCoaster extends React.Component {
   render() {
-    return React.createElement("div", {className: 'oldercoaster'}, [gran, p, list])
+    return React.createElement("div", {className: 'oldercoaster'}, [gran, p, list]);
   }
 };
 
